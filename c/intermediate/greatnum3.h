@@ -1,9 +1,8 @@
 #include <stdio.h>
 void main()
-{ //Work in Progress//
-    int x,y,z;
+{   int x,y,z;
     printf("Enter 3 numbers\n");
-    scanf("%d %d %d",&x,&y,&z);
+    scanf("%d,%d,%d",&x,&y,&z);
 
     if(x>y && x>z)
     {  if(y>z)

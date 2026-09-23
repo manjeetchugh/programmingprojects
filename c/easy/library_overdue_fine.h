@@ -6,8 +6,9 @@ int main(void)
     float fine = 0;
 
     printf("Enter the number of days the book is overdue: ");
+    scanf("%d", &n);
 
-    if (scanf("%d", &n) != 1 || n < 0)
+    if (n!= 1 || n < 0)
     {
         printf("Invalid input\n");
         return 1;

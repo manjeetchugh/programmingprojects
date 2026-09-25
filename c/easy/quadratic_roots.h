@@ -15,7 +15,7 @@ void main()
     printf("Roots are Imaginary");
    }
    else if(d=0)
-   { eq_root =-b/2*a;
+   { eq_root =-b/(2*a);
     printf("Roots are Real and Equal to %f",eq_root);
    }
 
